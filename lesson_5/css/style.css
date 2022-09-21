@@ -1,0 +1,151 @@
+/*================font===============*/
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url("../fonts/CaviarDreams/CaviarDreams-Italic.woff2") format("woff2"), url("../fonts/CaviarDreams/CaviarDreams-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url("../fonts/CaviarDreams/CaviarDreams.woff2") format("woff2"), url("../fonts/CaviarDreams/CaviarDreams.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url("../fonts/CaviarDreams/CaviarDreams-Bold.woff2") format("woff2"), url("../fonts/CaviarDreams/CaviarDreams-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Neucha', cursive;
+}
+
+.header {
+	font-size: 40px;
+	color: #A78B71;
+	text-align: center;
+	margin: 30px 0px 50px 0px;
+}
+.title {
+	font-family: "Caviar Dreams";
+	font-weight: 700;
+	font-size: 30px;
+	margin-left: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.place {
+	margin-left: 30px;
+	margin-bottom: 30px;
+	font-size: 17px;
+	color: #EC9704;
+	text-decoration: underline;
+}
+.wrap-palace {
+	padding-left: 30px;
+}
+
+.title-palace {
+	color: #9C4A1A;
+	text-shadow: 2px 2px 5px #b36233;
+}
+
+.palace-text {
+	margin-top: 20px;
+	text-align: left;
+	width: 70%;
+	color: #A78B71;
+}
+.img-palace {
+	margin-top: 30px;
+}
+
+.wrap-galery {
+	margin-top: 40px;
+	padding: 0px 30px 0px 30px;
+}
+
+.title-galery {
+	color: #EC9704;
+	text-shadow: 2px 2px 5px #e7ab42;
+}
+
+.galery-list li {
+	font-family: "Caviar Dreams";
+	font-style: italic;
+	font-size: 20px;
+	color: #583E26;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.wrap-lenon {
+	margin-top: 40px;
+}
+
+.title-lenon {
+	text-indent: 20px;
+	color: #8c2a27;
+}
+
+.lenon-wrap-text p {
+	text-align: right;
+	width: 50%;
+	font-family: "Caviar Dreams";
+	margin-top: 40px;
+	font-size: 20px;
+	color: #b04c01;
+}
+
+.img-lenon {
+	margin-top: 50px;
+}
+
+.title-house {
+	margin-top: 40px;
+	color: #e28d78;
+	margin-bottom: 50px;
+}
+
+.house-text-first {
+	font-size: 20px;
+	color: #c74535;
+	text-align: justify;
+	text-transform: lowercase;
+}
+
+.house-text-second {
+	color: #c05a12;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.overline {
+	text-decoration: overline;
+	color: #720a13;
+}
+.through {
+	text-decoration: line-through;
+	color: #c99f13;
+	font-size: 30px;
+}
+
+.footer {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	color: #8c2a27;
+}
+
+.footer-link {
+	text-transform: uppercase;
+	color: #720a13;
+}
